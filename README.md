@@ -1,4 +1,4 @@
-# Diamond-Price-Forecast
+# Diamond Price Forecast
 
 ## Introduction
 Building a regression model to predict the price of diamonds.
@@ -30,3 +30,6 @@ z depth in mm (0--31.8)
 
 depth total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)
 table width of top of diamond relative to widest point (43--95)
+
+## Conclusion
+On the basis of negative root mean square error, XGBClassifier appears to be the best model.
